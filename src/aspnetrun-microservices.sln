@@ -9,6 +9,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{A23D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{5351B7BE-A483-4E23-AF45-C01C0E385F50}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{C2F3DB24-3F10-4423-859D-BCDA65FF259D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{1487614D-F77C-4217-944A-1C4E8B81DBBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basket.API", "Services\Basket\Basket.API\Basket.API.csproj", "{FDECB39D-A462-43A9-B544-6C07DC10E1FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +25,14 @@ Global
 		{5351B7BE-A483-4E23-AF45-C01C0E385F50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5351B7BE-A483-4E23-AF45-C01C0E385F50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5351B7BE-A483-4E23-AF45-C01C0E385F50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2F3DB24-3F10-4423-859D-BCDA65FF259D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2F3DB24-3F10-4423-859D-BCDA65FF259D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2F3DB24-3F10-4423-859D-BCDA65FF259D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2F3DB24-3F10-4423-859D-BCDA65FF259D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDECB39D-A462-43A9-B544-6C07DC10E1FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDECB39D-A462-43A9-B544-6C07DC10E1FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDECB39D-A462-43A9-B544-6C07DC10E1FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDECB39D-A462-43A9-B544-6C07DC10E1FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -29,5 +43,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{A23D95F4-6E79-4207-98E9-C55239A5B8F6} = {9EB99357-100D-4568-A40A-0A25E213696D}
 		{5351B7BE-A483-4E23-AF45-C01C0E385F50} = {A23D95F4-6E79-4207-98E9-C55239A5B8F6}
+		{1487614D-F77C-4217-944A-1C4E8B81DBBF} = {9EB99357-100D-4568-A40A-0A25E213696D}
+		{FDECB39D-A462-43A9-B544-6C07DC10E1FF} = {1487614D-F77C-4217-944A-1C4E8B81DBBF}
 	EndGlobalSection
 EndGlobal
