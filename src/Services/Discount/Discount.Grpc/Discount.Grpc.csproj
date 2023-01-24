@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Protobuf Include="Protos\greet.proto" GrpcServices="Server" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Grpc.AspNetCore" Version="2.40.0" />
     <PackageReference Include="Npgsql" Version="7.0.1" />
     <PackageReference Include="Dapper" Version="2.0.123" />
@@ -20,12 +16,15 @@
     <None Remove="Entities\" />
     <None Remove="Repositories\" />
     <None Remove="Extensions\" />
+    <None Remove="Protos\" />
+    <None Remove="Services\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Entities\" />
     <Folder Include="Repositories\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Extensions\" />
+    <Folder Include="Protos\" />
+    <Folder Include="Services\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Controllers\DiscountController.cs" />
