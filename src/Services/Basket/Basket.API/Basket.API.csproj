@@ -21,11 +21,13 @@
     <None Remove="Entities\" />
     <None Remove="Repositories\" />
     <None Remove="Controllers\" />
+    <None Remove="GrpcServices\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Entities\" />
     <Folder Include="Repositories\" />
     <Folder Include="Controllers\" />
+    <Folder Include="GrpcServices\" />
   </ItemGroup>
   <ItemGroup>
     <Protobuf Include="..\..\Discount\Discount.Grpc\Protos\discount.proto" GrpcServices="Client">

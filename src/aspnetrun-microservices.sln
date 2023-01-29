@@ -63,4 +63,28 @@ Global
 		{582C9104-76BA-4F8E-8D2C-359A95B05C74} = {6AFE8976-54BF-413B-AA74-8C8EEAA4C1FB}
 		{AE273A82-67D4-4C8B-87A7-C4F87C8F83CA} = {6AFE8976-54BF-413B-AA74-8C8EEAA4C1FB}
 	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$0.TextStylePolicy = $2
+		$2.inheritsSet = null
+		$2.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $3
+		$3.scope = text/x-csharp
+		$0.TextStylePolicy = $4
+		$4.FileWidth = 80
+		$4.TabsToSpaces = True
+		$4.scope = text/plain
+		$0.TextStylePolicy = $5
+		$5.inheritsSet = null
+		$5.scope = text/x-json
+		$0.TextStylePolicy = $6
+		$6.inheritsSet = null
+		$6.scope = text/x-web
+		$0.TextStylePolicy = $7
+		$7.inheritsSet = null
+		$7.scope = text/x-vs
+		$0.StandardHeader = $8
+	EndGlobalSection
 EndGlobal
