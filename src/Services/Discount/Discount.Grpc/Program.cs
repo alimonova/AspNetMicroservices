@@ -18,8 +18,6 @@ app.MigrateDatabase<Program>();
 // Configure the HTTP request pipeline.
 app.UseRouting();
 
-app.UseAuthorization();
-
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapGrpcService<DiscountService>();
