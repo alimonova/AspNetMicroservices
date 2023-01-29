@@ -38,9 +38,21 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
             "Grpc.AspNetCore": {
               "target": "Package",
               "version": "[2.40.0, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[7.0.1, )"
             }
           },
           "imports": [
