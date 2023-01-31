@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "wbh1Lud/W/yDMC3bZIzLF5n9axm5dJg7T8PUnvoOfAEOMwzyXJG4z8WHIcroTKG2q+opg/G4fRVMUEe9znnLfw==",
+  "dgSpecHash": "vrN6OmLq4Hpv77NEaySiP13Hjv3CqIUqGUZSPYSwB2RRPCoRSJqc0TXdyq6nCSapdg5rOeAC5do7qKnb1R//eQ==",
   "success": true,
   "projectFilePath": "/Users/admin/Projects/AspNetMicroservices/src/Services/Ordering/Ordering.API/Ordering.API.csproj",
   "expectedPackageFiles": [
+    "/Users/admin/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/Users/admin/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/Users/admin/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",

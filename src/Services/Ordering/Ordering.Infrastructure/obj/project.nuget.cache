@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "rFHcWEf2xRoyULeHfQhZA8UuKJDbV+iZzDrSm3NAkcNmQ3c/VLgeL2ivA9zi9EAyy2UTb5/XO/lQeCLMEUlUYw==",
+  "dgSpecHash": "wQVK21X5l07mFUEEjCxmSjbzoKuSyBsMrGZyPmel/CgLU2CPUxdrLm0CEqrBpusm2C0w3xvvNDhoAs5jnQZgMA==",
   "success": true,
   "projectFilePath": "/Users/admin/Projects/AspNetMicroservices/src/Services/Ordering/Ordering.Infrastructure/Ordering.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/admin/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/Users/admin/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }
