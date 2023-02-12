@@ -4,18 +4,20 @@ using MediatR;
 using Microsoft.Extensions.Logging;
 using Ordering.Application.Contracts.Infrastructure;
 using Ordering.Application.Contracts.Persistence;
+using Ordering.Application.Features.Orders.Commands.CheckoutOrder;
+using Ordering.Application.Models;
 using Ordering.Domain.Entities;
 
-namespace Ordering.Application.Features.Orders.Commands.UpdateOrder
+namespace Ordering.Application.Features.Orders.Commands.DeleteOrder
 {
-	public class UpdateOrderCommandHandler : IRequestHandler<UpdateOrderCommand>
+	public class DeleteOrderCommandHandler : IRequestHandler<DeleteOrderCommand>
 	{
         private readonly IOrderRepository _orderRepository;
         private readonly IMapper _mapper;
         private readonly ILogger _logger;
 
-        public UpdateOrderCommandHandler(IOrderRepository orderRepository,
-            IMapper mapper, IEmailService emailService, ILogger logger)
+        public DeleteOrderCommandHandler(IOrderRepository orderRepository,
+            IMapper mapper, ILogger logger)
         {
             _orderRepository = orderRepository ??
                 throw new ArgumentNullException(nameof(orderRepository));
@@ -25,21 +27,20 @@ namespace Ordering.Application.Features.Orders.Commands.UpdateOrder
                 throw new ArgumentNullException(nameof(logger));
         }
 
-        public async Task<Unit> Handle(UpdateOrderCommand request, CancellationToken cancellationToken)
+        public async Task<Unit> Handle
+            (DeleteOrderCommand request, CancellationToken cancellationToken)
         {
-            var orderToUpdate = await _orderRepository.GetByIdAsync(request.Id);
+            var orderToDelete = await _orderRepository.GetByIdAsync(request.Id);
 
-            if (orderToUpdate == null)
+            if (orderToDelete == null)
             {
                 _logger.LogError("Order not exists in database");
                 //throw new NotFoundException(nameof(Order), request.Id);
             }
 
-            _mapper.Map(request, orderToUpdate, typeof(UpdateOrderCommand), typeof(Order));
+            await _orderRepository.DeleteAsync(orderToDelete);
 
-            await _orderRepository.UpdateAsync(orderToUpdate);
-
-            _logger.LogInformation($"Order {request.Id} was successfully updated.");
+            _logger.LogInformation($"Order {orderToDelete.Id} was successfully deleted.");
 
             return Unit.Value;
         }
