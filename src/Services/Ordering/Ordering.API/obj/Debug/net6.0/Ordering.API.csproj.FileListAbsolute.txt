@@ -25,3 +25,17 @@
 /Users/admin/Projects/AspNetMicroservices/src/Services/Ordering/Ordering.API/obj/Debug/net6.0/Ordering.API.pdb
 /Users/admin/Projects/AspNetMicroservices/src/Services/Ordering/Ordering.API/obj/Debug/net6.0/Ordering.API.genruntimeconfig.cache
 /Users/admin/Projects/AspNetMicroservices/src/Services/Ordering/Ordering.API/obj/Debug/net6.0/ref/Ordering.API.dll
+/Users/admin/Projects/AspNetMicroservices/src/Services/Ordering/Ordering.API/bin/Debug/net6.0/AutoMapper.dll
+/Users/admin/Projects/AspNetMicroservices/src/Services/Ordering/Ordering.API/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/admin/Projects/AspNetMicroservices/src/Services/Ordering/Ordering.API/bin/Debug/net6.0/FluentValidation.dll
+/Users/admin/Projects/AspNetMicroservices/src/Services/Ordering/Ordering.API/bin/Debug/net6.0/FluentValidation.DependencyInjectionExtensions.dll
+/Users/admin/Projects/AspNetMicroservices/src/Services/Ordering/Ordering.API/bin/Debug/net6.0/MediatR.dll
+/Users/admin/Projects/AspNetMicroservices/src/Services/Ordering/Ordering.API/bin/Debug/net6.0/MediatR.Contracts.dll
+/Users/admin/Projects/AspNetMicroservices/src/Services/Ordering/Ordering.API/bin/Debug/net6.0/MediatR.Extensions.Microsoft.DependencyInjection.dll
+/Users/admin/Projects/AspNetMicroservices/src/Services/Ordering/Ordering.API/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/admin/Projects/AspNetMicroservices/src/Services/Ordering/Ordering.API/bin/Debug/net6.0/Ordering.Application.dll
+/Users/admin/Projects/AspNetMicroservices/src/Services/Ordering/Ordering.API/bin/Debug/net6.0/Ordering.Domain.dll
+/Users/admin/Projects/AspNetMicroservices/src/Services/Ordering/Ordering.API/bin/Debug/net6.0/Ordering.Infrastructure.dll
+/Users/admin/Projects/AspNetMicroservices/src/Services/Ordering/Ordering.API/bin/Debug/net6.0/Ordering.Infrastructure.pdb
+/Users/admin/Projects/AspNetMicroservices/src/Services/Ordering/Ordering.API/bin/Debug/net6.0/Ordering.Application.pdb
+/Users/admin/Projects/AspNetMicroservices/src/Services/Ordering/Ordering.API/bin/Debug/net6.0/Ordering.Domain.pdb
