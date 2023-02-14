@@ -25,8 +25,10 @@ namespace Ordering.Infrastructure.Persistence
                 new Order() {
                     UserName = "alimonova", FirstName = "Oleksandra",
                     LastName = "Alimonova", EmailAddress = "sburchinskaya.2000@gmail.com",
-                    AddressLine = "Chernivtsi", Country = "Ukraine",
-                    TotalPrice = 500
+                    AddressLine = "Hertsena 2v", Country = "Ukraine",
+                    State = "Chernivtsi", ZipCode = "58000",
+                    TotalPrice = 500, CVV = "123", CardName = "Test Card",
+                    CardNumber = "1234 5678 9101 1121", Expiration = "01/01"
                 }
             };
         }
