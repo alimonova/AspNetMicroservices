@@ -17,7 +17,8 @@ namespace Ordering.Application.Features.Orders.Commands.CheckoutOrder
         private readonly ILogger _logger;
 
         public CheckoutOrderCommandHandler(IOrderRepository orderRepository,
-            IMapper mapper, IEmailService emailService, ILogger logger)
+            IMapper mapper, IEmailService emailService,
+            ILogger<CheckoutOrderCommandHandler> logger)
         {
             _orderRepository = orderRepository ??
                 throw new ArgumentNullException(nameof(orderRepository));

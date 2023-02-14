@@ -16,7 +16,7 @@ namespace Ordering.Application.Features.Orders.Commands.UpdateOrder
         private readonly ILogger _logger;
 
         public UpdateOrderCommandHandler(IOrderRepository orderRepository,
-            IMapper mapper, IEmailService emailService, ILogger logger)
+            IMapper mapper, IEmailService emailService, ILogger<UpdateOrderCommandHandler> logger)
         {
             _orderRepository = orderRepository ??
                 throw new ArgumentNullException(nameof(orderRepository));
