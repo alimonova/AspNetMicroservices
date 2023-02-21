@@ -16,6 +16,9 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="MassTransit" Version="8.0.13" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="8.0.13" />
+    <PackageReference Include="MassTransit.AspNetCore" Version="7.3.1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -32,9 +35,11 @@
   <ItemGroup>
     <None Remove="Controllers\" />
     <None Remove="Extensions\" />
+    <None Remove="EventBusConsumer\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
     <Folder Include="Extensions\" />
+    <Folder Include="EventBusConsumer\" />
   </ItemGroup>
 </Project>
