@@ -96,3 +96,13 @@
 /Users/admin/Projects/AspNetMicroservices/src/Services/Ordering/Ordering.API/obj/Debug/net6.0/Ordering.API.pdb
 /Users/admin/Projects/AspNetMicroservices/src/Services/Ordering/Ordering.API/obj/Debug/net6.0/Ordering.API.genruntimeconfig.cache
 /Users/admin/Projects/AspNetMicroservices/src/Services/Ordering/Ordering.API/obj/Debug/net6.0/ref/Ordering.API.dll
+/Users/admin/Projects/AspNetMicroservices/src/Services/Ordering/Ordering.API/bin/Debug/net6.0/MassTransit.dll
+/Users/admin/Projects/AspNetMicroservices/src/Services/Ordering/Ordering.API/bin/Debug/net6.0/MassTransit.Abstractions.dll
+/Users/admin/Projects/AspNetMicroservices/src/Services/Ordering/Ordering.API/bin/Debug/net6.0/MassTransit.AspNetCoreIntegration.dll
+/Users/admin/Projects/AspNetMicroservices/src/Services/Ordering/Ordering.API/bin/Debug/net6.0/MassTransit.ExtensionsDependencyInjectionIntegration.dll
+/Users/admin/Projects/AspNetMicroservices/src/Services/Ordering/Ordering.API/bin/Debug/net6.0/MassTransit.RabbitMqTransport.dll
+/Users/admin/Projects/AspNetMicroservices/src/Services/Ordering/Ordering.API/bin/Debug/net6.0/Microsoft.Extensions.Diagnostics.HealthChecks.dll
+/Users/admin/Projects/AspNetMicroservices/src/Services/Ordering/Ordering.API/bin/Debug/net6.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+/Users/admin/Projects/AspNetMicroservices/src/Services/Ordering/Ordering.API/bin/Debug/net6.0/RabbitMQ.Client.dll
+/Users/admin/Projects/AspNetMicroservices/src/Services/Ordering/Ordering.API/bin/Debug/net6.0/EventBus.Messages.dll
+/Users/admin/Projects/AspNetMicroservices/src/Services/Ordering/Ordering.API/bin/Debug/net6.0/EventBus.Messages.pdb
